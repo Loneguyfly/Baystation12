@@ -480,7 +480,7 @@ var/global/list/robot_modules = list(
 					LANGUAGE_SKRELLIAN	= 1,
 					LANGUAGE_RESOMI		= 1,
 					LANGUAGE_TRADEBAND	= 1,
-					LANGUAGE_GUTTER		= 1
+					LANGUAGE_GUTTER		= 1,
 					LANGUAGE_TERRAN		= 1
 					)
 
@@ -632,7 +632,7 @@ var/global/list/robot_modules = list(
 					LANGUAGE_UNATHI = 0,
 					LANGUAGE_SIIK_TAJR = 0,
 					LANGUAGE_SKRELLIAN = 0,
-					LANGUAGE_GUTTER = 1
+					LANGUAGE_GUTTER = 1,
 					LANGUAGE_TERRAN = 1
 					)
 	sprites = list(
