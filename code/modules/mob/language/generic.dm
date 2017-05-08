@@ -70,3 +70,14 @@
 	colour = "say_quote"
 	key = "s"
 	flags = SIGNLANG | NO_STUTTER | NONVERBAL
+
+/datum/language/terran
+	name = "Terran Common"
+	desc = "A language commonly used within Confederate space that has been formed over years of distance from Sol."
+	speech_verb = "barks"
+	colour = "say_quote"
+	key = "4"
+	syllables = list ("hoi", "cache", "capra", "tsun", "koi", "libra", "kel", "sia," 
+					"tubren", "tubrei", "astarta", "gruvik", "vers", "lonai", "vestro", 
+					"vik", "yeria", "entrovik", "yao", "wa", "uoi", "wong", "shiebsche", "gouang", "spetzrovik", "rovi", "terra")
+
