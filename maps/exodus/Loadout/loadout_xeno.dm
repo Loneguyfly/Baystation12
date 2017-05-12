@@ -137,7 +137,7 @@
 /datum/gear/eyes/tajblind/sec
 	display_name = "sleek veil"
 	path = /obj/item/clothing/glasses/sunglasses/sechud/tajblind
-	whitelisted = "Tajara"
+	whitelisted = list(SPECIES_TAJARA)
 	sort_category = "Xenowear"
 	cost = 1
 	allowed_roles = list("Security Officer","Head of Security","Warden","Detective")
@@ -145,7 +145,7 @@
 /datum/gear/eyes/tajblind/med
 	display_name = "medical veil"
 	path = /obj/item/clothing/glasses/tajblind/med
-	whitelisted = "Tajara"
+	whitelisted = list(SPECIES_TAJARA)
 	sort_category = "Xenowear"
 	cost = 1
 	allowed_roles = list("Medical Doctor","Chief Medical Officer","Chemist","Paramedic","Geneticist")
@@ -153,7 +153,7 @@
 /datum/gear/eyes/tajblind/meson
 	display_name = "industrial veil"
 	path = /obj/item/clothing/glasses/meson/prescription/tajblind
-	whitelisted = "Tajara"
+	whitelisted = list(SPECIES_TAJARA)
 	sort_category = "Xenowear"
 	cost = 1
 	allowed_roles = list("Chief Engineer","Station Engineer","Atmospherics Technician", "Shaft Miner")
